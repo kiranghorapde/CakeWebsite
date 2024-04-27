@@ -8,101 +8,86 @@ const cardData = [
     description: "CLASSICVANILLA",
     prc:"Socialimg/whtsappimg.png",
     Add : "Add to cart",
-    imageUrl: " /Marqesimg/img1.jpg",
-    btn : "11% Off",
-    Add: "Add to cart"
-  },
+    imageUrl: "Marqesimg/img1.jpg",
+    btn : "11% Off"
+    },
   {
     description: "EXOTIC CAKES ",
     prc:" Socialimg/whtsappimg.png",
     Add : "Add to cart",
-    imageUrl: " /Marqesimg/img2.jpg ",
-    btn : "11% Off",
-    Add: "Add to cart"
-  },
+    imageUrl: "Marqesimg/img2.jpg ",
+    btn : "11% Off"
+    },
   {
     description: "PREMIUM CAKES ",
     prc:" Socialimg/whtsappimg.png",
     Add : "Add to cart",
-    imageUrl: " /Marqesimg/img3.jpg",
-    btn : "11% Off",
-    Add: "Add to cart"
+    imageUrl: "Marqesimg/img3.jpg",
+    btn : "11% Off"
   },
   {
     description: " DESIGNER CAKES  ",
     prc:" Socialimg/whtsappimg.png",
     Add : "Add to cart",
-    imageUrl: " /Marqesimg/img4.jpg",
-    btn : "11% Off",
-    Add: "Add to cart"
+    imageUrl: " Marqesimg/img4.jpg",
+    btn : "11% Off"
   },
   {
     description: " DESIGNER CAKES  ",
     prc:" Socialimg/whtsappimg.png",
     Add : "Add to cart",
-    imageUrl: " /Marqesimg/img6.jpg",
-    btn : "11% Off",
-    Add: "Add to cart"
+    imageUrl: " Marqesimg/img6.jpg",
+    btn : "11% Off"
+    },
+  {
+    description: " DESIGNER CAKES  ",
+    prc:" Socialimg/whtsappimg.png",
+    Add : "Add to cart",
+    imageUrl: " Marqesimg/img4.jpg",
+    btn : "11% Off"
   },
   {
     description: " DESIGNER CAKES  ",
     prc:" Socialimg/whtsappimg.png",
     Add : "Add to cart",
-    imageUrl: " /Marqesimg/img4.jpg",
-    btn : "11% Off",
-    Add: "Add to cart"
-  },
-  {
-    description: " DESIGNER CAKES  ",
-    prc:" Socialimg/whtsappimg.png",
-    Add : "Add to cart",
-    imageUrl: " /Marqesimg/img10.jpg",
-    btn : "11% Off",
-    Add: "Add to cart"
-  },
+    imageUrl: " Marqesimg/img10.jpg",
+    btn : "11% Off"
+    },
    {
     description: " DESIGNER CAKES  ",
     prc:" Socialimg/whtsappimg.png",
     Add : "Add to cart",
-    imageUrl: "/Marqesimg/img9.jpg ",
-    btn : "11% Off",
-    Add: "Add to cart"
+    imageUrl: "Marqesimg/img9.jpg ",
+    btn : "11% Off"  },
+  {
+    description: " DESIGNER CAKES  ",
+    prc:" Socialimg/whtsappimg.png",
+    Add : "Add to cart",
+    imageUrl: " Marqesimg/img2.jpg",
+    btn : "11% Off"  },
+  {
+    description: " DESIGNER CAKES  ",
+    prc:" Socialimg/whtsappimg.png",
+    Add : "Add to cart",
+    imageUrl: " Marqesimg/img3.jpg",
+    btn : "11% Off"
   },
   {
     description: " DESIGNER CAKES  ",
     prc:" Socialimg/whtsappimg.png",
     Add : "Add to cart",
-    imageUrl: " /Marqesimg/img2.jpg",
-    btn : "11% Off",
-    Add: "Add to cart"
+    imageUrl: "Marqesimg/img9.jpg ",
+    btn : "11% Off"
   },
   {
     description: " DESIGNER CAKES  ",
     prc:" Socialimg/whtsappimg.png",
     Add : "Add to cart",
-    imageUrl: " /Marqesimg/img3.jpg",
-    btn : "11% Off",
-    Add: "Add to cart"
-  },
-  {
-    description: " DESIGNER CAKES  ",
-    prc:" Socialimg/whtsappimg.png",
-    Add : "Add to cart",
-    imageUrl: "/Marqesimg/img9.jpg ",
-    btn : "11% Off",
-    Add: "Add to cart"
-  },
-  {
-    description: " DESIGNER CAKES  ",
-    prc:" Socialimg/whtsappimg.png",
-    Add : "Add to cart",
-    imageUrl: "/Marqesimg/img1.jpg ",
-    btn : "11% Off",
-    Add: "Add to cart"
+    imageUrl: "Marqesimg/img1.jpg ",
+    btn : "11% Off"
   
   }
-  
-  // Add more card data as needed
+   // Add more card data as needed
 ];
 
 const Prodectpage = () => {

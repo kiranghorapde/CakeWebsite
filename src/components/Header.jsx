@@ -32,6 +32,46 @@ const Header = () => {
   const [subMenuOpen, setSubMenuOpen] = useState(false);
   return (
     <div className=" bg-[url('Images/pinckbgimghedar.jpeg')] bg-no-repeat bg-cover bg-center  h-auto    ">
+      {/* Heder Secstion Only Cart */}
+      <div className=" flex justify-end gap-4 pt-7 ">
+
+         {/* <Link to={"serchitem"}> <div className=" h-12">
+          <input type="text" placeholder="Search Products" className="  " />
+        </div>
+        </Link> */}
+
+        
+        <div className="">
+          {" "}
+          <Link to="signup">
+            <div className=" inner-div flex  sm:gap-1   sm:right-0  text-blue-950   sm:mr-7">
+            <BiUserPin className="w-7 h-7 " />
+              
+            </div>{" "}
+          </Link>
+        </div>
+
+        <div className="">
+          {" "}
+          <Link to="login">
+            <div className=" inner-div flex  sm:gap-1   sm:right-0   text-blue-950      sm:mr-7">
+            <FaUserCircle className="w-7 h-7 " />
+             
+            </div>{" "}
+          </Link>
+        </div>
+        <div className="">
+          {" "}
+          <Link to="cartone">
+            <div className=" inner-div flex  sm:gap-1   sm:right-0  text-blue-950    sm:mr-7">
+              <FaCartShopping className="w-10 h-9   " />
+              <div className="text-red-950">
+                <span>0</span>
+              </div>
+            </div>{" "}
+          </Link>
+        </div>
+      </div>
       <div className="w-full sm:flex sm:justify-between sm:p-6 ">
         <div className=" px-3 sm:px-0  py-1 flex justify-between items-center ">
           <div className="rounded-full sm:pt-0 pt-12">
@@ -120,46 +160,7 @@ const Header = () => {
         </div>
       </div>
 
-      {/* Heder Secstion Only Cart */}
-      <div className=" flex justify-end gap-4 ">
-
-         {/* <Link to={"serchitem"}> <div className=" h-12">
-          <input type="text" placeholder="Search Products" className="  " />
-        </div>
-        </Link> */}
-
-        
-        <div className="">
-          {" "}
-          <Link to="signup">
-            <div className=" inner-div flex  sm:gap-1   sm:right-0  rounded-3xl text-blue-950 sm:border-b-4   border-white   sm:mr-7">
-            <BiUserPin className="w-10 h-9 " />
-              
-            </div>{" "}
-          </Link>
-        </div>
-
-        <div className="">
-          {" "}
-          <Link to="login">
-            <div className=" inner-div flex  sm:gap-1   sm:right-0  rounded-3xl text-blue-950 sm:border-b-4   border-white   sm:mr-7">
-            <FaUserCircle className="w-10 h-9 " />
-             
-            </div>{" "}
-          </Link>
-        </div>
-        <div className="">
-          {" "}
-          <Link to="cartone">
-            <div className=" inner-div flex  sm:gap-1   sm:right-0  rounded-3xl text-blue-950 sm:border-b-4   border-white   sm:mr-7">
-              <FaCartShopping className="w-10 h-9   " />
-              <div className="text-red-950">
-                <span>0</span>
-              </div>
-            </div>{" "}
-          </Link>
-        </div>
-      </div>
+      
     </div>
   );
 };

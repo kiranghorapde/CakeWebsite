@@ -8,11 +8,11 @@ const Login = () => {
 <h1>Login</h1>
 
 <div className="">
-<input type="text" placeholder="Username" required />
+<input type="text" placeholder="Username" required=" " />
 </div>
 
 <div>
-  <input type="text" placeholder="Password" required />
+  <input type="text" placeholder="Password" required=" " />
 </div>
 
 <div>
